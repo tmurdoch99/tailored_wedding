@@ -10,6 +10,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'simple_form'
 gem 'ckeditor', '~> 4.1'
+gem 'thredded', '~> 0.8.4'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
