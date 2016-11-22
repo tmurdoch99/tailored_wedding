@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Rsvps</h1>
+
+<%= link_to 'New Rsvp', new_rsvp_path, id: "new_link", remote: true %>
+
+<div class="rsvp" id="rsvps">
+  <table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Name</th>
+      <th>Preference</th>
+      <th>Other</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+  <%= render @rsvps %>
+  </table>
+</div>
+
+<br>
+
+

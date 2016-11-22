@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @rsvp.user_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @rsvp.name %>
+</p>
+
+<p>
+  <strong>Preference:</strong>
+  <%= @rsvp.preference %>
+</p>
+
+<p>
+  <strong>Other:</strong>
+  <%= @rsvp.other %>
+</p>
+
+<%= link_to 'Edit', edit_rsvp_path(@rsvp) %> |
+<%= link_to 'Back', rsvps_path %>

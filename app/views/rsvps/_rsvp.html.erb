@@ -1,0 +1,15 @@
+
+
+  <tbody>
+  
+      <tr>
+        <td><%= rsvp.user_id %></td>
+        <td><%= rsvp.name %></td>
+        <td><%= rsvp.preference %></td>
+        <td><%= rsvp.other %></td>
+        <td><%= link_to 'Show', rsvp %></td>
+        <td><%= link_to 'Edit', edit_rsvp_path(rsvp) %></td>
+        <td><%= link_to 'Destroy', rsvp, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+
+  </tbody>
